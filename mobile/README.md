@@ -15,6 +15,11 @@ O aplicativo possui três telas:
 das ferramentas disponíveis, conhecimento e domínio sobre as linguagens e a
 capacidade de implementação das especificações
 
+## Telas de referência
+
+**As telas a seguir são apenas ilustrativas, para dar uma ideia de como poderia
+ser uma implementação**
+
 ![Login](./screen-1.png)
 ![Timeline](./screen-2.png)
 ![Map](./screen-3.png)
