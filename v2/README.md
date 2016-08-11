@@ -40,13 +40,13 @@ título e o nome do autor, ambos de forma ascendente.
 Dessa forma é importante para esta solução prover os meios para preparar o
 **Serviço de Ordenação** com os atributos e suas direções.
 
-É restrição da implementação que sem qualquer modificação no código do **Serviço
-de Ordenação** e através de um **arquivo de configuração**, o projeto deve
-permitir a configuração dos atributos e direções do **Serviço de Ordenação**.
+É restrição da implementação que, sem qualquer modificação no código do **Serviço
+de Ordenação**, e através de um **arquivo de configuração**, o projeto permita 
+a configuração dos atributos e direções do **Serviço de Ordenação**.
 
 #### Casos de teste
 
-Dado a seguinte lista de livros:
+Dada a seguinte lista de livros:
 
 | #   | Título                                          | Author            | Edition Year |
 | --- | ----------------------------------------------- | ----------------- | ------------ |
@@ -69,7 +69,7 @@ Os seguintes casos de teste devem passar na implementação:
 
 ### Outros Requisitos
 
-Esse projeto envolve várias escolhas de projeto que precisam ser feitas. Em
+Esse serviço envolve várias escolhas de projeto que precisam ser feitas. Em
 todos os casos, os seguintes princípios se aplicam.
 
 #### Clareza e Mantenibilidade
@@ -155,7 +155,7 @@ arquitetura é de suma importância.
 
 Além da solução em código será realizada uma avaliação oral com aqueles que
 tiverem sucesso. Esse exame avaliará seu entendimento da solução e o fará buscar
-justificar suas decisões de arquitetura e projeto da solução. Para cada decisão
+justificativas para suas decisões de arquitetura e projeto da solução. Para cada decisão
 de projeto você será avaliado pela consistência e clareza da sua abordagem, ao
 invés de por qualquer solução específica. As decisões de projeto devem ser
 brevemente, porém claramente, descritas em seus comentários.
