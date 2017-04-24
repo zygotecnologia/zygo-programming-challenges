@@ -14,8 +14,6 @@ gestão de bibliotecas. Como você trabalha de forma iterativa, sua primeira
 escolha foi criar um serviço de ordenação e classificação das obras dessa
 biblioteca, respeitando os requisitos a seguir.
 
-Não é preciso implementar uma aplicação completamente funcional. A
-implementação apenas do serviço de ordenação é suficiente.
 
 ### Requisitos Funcionais
 
