@@ -14,31 +14,37 @@ sistemas, e é nesses aspectos que vamos mirar nesse desafio.
 
 #### Objetivo do desafio
 
-Contruir um sistema simples de ofertas, onde usuários comuns podem acessar e buscar por ofertas.
+Contruir um sistema simples de livros, onde usuários comuns podem acessar e buscar por livros.
 
 #### Desafio
 
-* O sistema deve possuir uma autenticação somente para admins e permitir que admins cadastrados criem, editem e removam ofertas;
-* As ofertas devem possuir um título, uma descrição e uma imagem(pode ser uma url de uma imagem na internet);
-* Usuários comuns não precisam fazer login, mas devem conseguir acessar a listagem de ofertas;
-* Na página da listagem de ofertas, deve ser possível realizar a busca por texto, filtrando a lista para exibir ofertas que possuam o texto digitado no campo de título e/ou no campo de descrição;
-* Deve ser possível ordenar a lista de ofertas por título de forma crescente ou decrescente;
-* Tanto o filtro como a ordenação das ofertas deve ser feita de forma dinâmica, sem recarregar a página a cada texto digitado ou ordenação alterada;
-* Pode utilizar o bootstrap para montar o layout das páginas;
+* O sistema deve possuir uma autenticação somente para admins e permitir que admins cadastrados criem, editem e removam livros(usuários comuns não podem ter acesso a essa página);
+* Os livros devem possuir um título, uma descrição, uma imagem(pode ser uma url de uma imagem na internet) e o nome do autor;
+* A página inicial deve ser a listagem dos livros, não precisando de login para ser acessada, permitindo assim o acesso de qualquer usuário;
+* Na página da listagem de livros, deve ser possível realizar a busca por texto, filtrando a lista para exibir ofertas que possuam o texto digitado no campo de título e/ou no campo de descrição; Também deve ser possvel buscar por autor;
+* Deve ser possível ordenar a lista de livros por título de forma crescente ou decrescente;
+* Tanto o filtro como a ordenação dos livros deve ser feita de forma dinâmica, sem recarregar a página a cada texto digitado ou ordenação alterada;
+* Fique a vontade para utilizar um framework css para montar o layout das páginas (Ex: Bootsrap, Materialize, etc);
 
 **Valem pontos extras:** (não são requisitos)
 
-* Uma boa documentação, dentro e fora do código
 * Testes em RSpec (unitários e de integração)
-* Boa organização dos commits;
-* Uso de algum framework javascript para a página de listagem de ofertas;
+* Uso de algum framework javascript para a página de listagem de livros;
+* Layout responsivo;
 
 ### Requisitos técnicos
 
-* Usar Ruby :)
+* Usar RubyOnRails :)
 * É permitido o uso de frameworks e _gems_, sem penalização
 * A arquitetura e design do sistema devem ser documentadas em um arquivo README
 * Deve ser usado GIT para versionamento
+
+### O que será avaliado
+
+* Documentação e estrutura do código(Clean code)
+* Estrutura do testes em rspec(caso tenha sido feito)
+* Organização dos commits;
+* Boa organização e estrutura das views
 
 ### Envio
 
