@@ -21,7 +21,7 @@ Contruir um sistema simples de livros, onde usuários comuns podem acessar e bus
 * O sistema deve possuir uma autenticação somente para admins e permitir que admins cadastrados criem, editem e removam livros(usuários comuns não podem ter acesso a essa página);
 * Os livros devem possuir um título, uma descrição, uma imagem(pode ser uma url de uma imagem na internet) e o nome do autor;
 * A página inicial deve ser a listagem dos livros, não precisando de login para ser acessada, permitindo assim o acesso de qualquer usuário;
-* Na página da listagem de livros, deve ser possível realizar a busca por texto, filtrando a lista para exibir ofertas que possuam o texto digitado no campo de título e/ou no campo de descrição; Também deve ser possvel buscar por autor;
+* Na página da listagem de livros, deve ser possível realizar a busca por texto, filtrando a lista para exibir livros que possuam o texto digitado no campo de título e/ou no campo de descrição; Também deve ser possvel buscar por autor;
 * Deve ser possível ordenar a lista de livros por título de forma crescente ou decrescente;
 * Tanto o filtro como a ordenação dos livros deve ser feita de forma dinâmica, sem recarregar a página a cada texto digitado ou ordenação alterada;
 * Fique a vontade para utilizar um framework css para montar o layout das páginas (Ex: Bootsrap, Materialize, etc);
