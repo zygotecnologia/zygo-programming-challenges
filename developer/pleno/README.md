@@ -43,6 +43,7 @@ Contruir um sistema simples de livros, onde usuários comuns podem acessar e bus
 * Documentação e estrutura do código
 * Estrutura do testes em rspec(caso tenha sido feito)
 * Organização dos commits;
+* Boa organização e estrutura das views
 
 ### Envio
 
