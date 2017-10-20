@@ -108,7 +108,7 @@ ser aplicadas tanto para o projeto quanto ao código da solução.
 
 #### Plataforma
 
-Ao longo do teste você deve utilizar a linguagem especificada por e-mail. Você
+Ao longo do teste você deve utilizar a linguagem que desejar. Você
 não precisa desenvolver o código utilizando uma implementação particular da
 linguagem, mas sua submissão deve ter sido testada e pronta para funcionar em
 uma versão de produção (não desenvolvimento) da implementação mais utilizada da
