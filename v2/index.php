@@ -13,6 +13,8 @@ if(!isset($_SESSION["filtro3"])){
 $_SESSION["filtro1"]="";
 $_SESSION["filtro2"]="";
 $_SESSION["filtro3"]="";
+}
+if(!isset($_SESSION["titulo"])){
 $_SESSION["autor"]=array();
 $_SESSION["titulo"]=array();
 $_SESSION["ano"]=array();
@@ -33,20 +35,27 @@ $_SESSION["ano"]=array();
 			
 			
 			
-				$("#adicionar").click(function() { 
-					var opcao  = $("#adicionar").val();
+				$("#adicionar_livro").click(function() { 
+					var opcao  = "Adicionar";
 					ajax_adiciona(opcao);
 				});
-				$("#remover").click(function() {
-					var opcao  = $("#remover").val();
+				$("#remover_ultimo").click(function() {
+					var opcao  = "Remover";
 					ajax_adiciona(opcao);
 				});
-				$("#limpar").click(function() {
-					var opcao  = $("#limpar").val();
+				$("#limpar_livros").click(function() {
+					var opcao  = "Limpar";
 					ajax_adiciona(opcao);
 				});
+				
+				
 				$("#selecte").change(function() { 
-					ajax_filtro();
+					var opcao  = "Adicionar";
+					ajax_filtro(opcao);
+				});
+				$("#limpar_filtro").click(function() {
+					var opcao  = "Limpar";
+					ajax_filtro(opcao);
 				});
 			
 			});
@@ -67,12 +76,12 @@ $_SESSION["ano"]=array();
 					}
 					});
 			}
-			function ajax_filtro(){
+			function ajax_filtro(opcao){
 				var select    = $("#selecte").val();
 				$.ajax({
 					url: "filtro.php",
 					type: "POST",
-					data: {select: select},
+					data: {select: select,opcao: opcao},
 					success:function(result){
 						window.location.reload();
 					}
@@ -87,15 +96,16 @@ $_SESSION["ano"]=array();
 		<form action="ordena.php" method="POST">
 		
 			<div class="container">
-				<input type="button" value="Adicionar" name="adicionar" id="adicionar">
-				<input type="button" value="Remover" name="remover" id="remover">
-				<input type="button" value="Limpar" name="limpar" id="limpar">
+				<input type="button" value="Adicionar Livro" name="adicionar_livro" id="adicionar_livro">
+				<input type="button" value="Remover Ultimo" name="remover_ultimo" id="remover_ultimo">
+				<input type="button" value="Limpar Livros" name="limpar_livros" id="limpar_livros">
 				
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				
 				<select  name="selecte" id="selecte">
+					<option value="vazio">Sem filtro</option>
 					<optgroup label="Título">
 						<option value="Titulo Ascendente">Título Ascendente</option>
 						<option value="Titulo Descendente">Título Descendente</option>
@@ -135,6 +145,8 @@ $_SESSION["ano"]=array();
 				?>
 				</table>
 				</div>
+				
+				<input type="button" value="Limpar Filtro" name="limpar_filtro" id="limpar_filtro">
 				
 			</div>
 			
