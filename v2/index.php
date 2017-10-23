@@ -1,19 +1,38 @@
 <?php
 session_start();
 if(false){
-$_SESSION['autor']=array();
-$_SESSION['titulo']=array();
-$_SESSION['ano']=array();
+	unset($_SESSION["filtro1"]);
+	unset($_SESSION["filtro2"]);
+	unset($_SESSION["filtro3"]);
+	unset($_SESSION["titulo"]);
+	unset($_SESSION["autor"]);
+	unset($_SESSION["ano"]);
+	unset($_SESSION["cont"]);
 }
+if(!isset($_SESSION["filtro3"])){
+$_SESSION["filtro1"]="";
+$_SESSION["filtro2"]="";
+$_SESSION["filtro3"]="";
+$_SESSION["autor"]=array();
+$_SESSION["titulo"]=array();
+$_SESSION["ano"]=array();
+}
+
+	
 ?>
 <html>
 	<head>
-		<link rel=”stylesheet” type=”text/css” href=style.css” />
-
-		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script>
-		$(document).ready(function() {
+	
+		<title>Setor</title>
 		
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript">
+		
+		
+			$(document).ready(function() {
+			
+			
+			
 				$("#adicionar").click(function() { 
 					var opcao  = $("#adicionar").val();
 					ajax_adiciona(opcao);
@@ -22,8 +41,14 @@ $_SESSION['ano']=array();
 					var opcao  = $("#remover").val();
 					ajax_adiciona(opcao);
 				});
+				$("#limpar").click(function() {
+					var opcao  = $("#limpar").val();
+					ajax_adiciona(opcao);
+				});
+				$("#selecte").change(function() { 
+					ajax_filtro();
+				});
 			
-				
 			});
 			
 			function ajax_adiciona(opcao)
@@ -42,17 +67,82 @@ $_SESSION['ano']=array();
 					}
 					});
 			}
+			function ajax_filtro(){
+				var select    = $("#selecte").val();
+				$.ajax({
+					url: "filtro.php",
+					type: "POST",
+					data: {select: select},
+					success:function(result){
+						window.location.reload();
+					}
+					});
+			}
 			
 		</script>
+
 	</head>
 	<body>
 
 		<form action="ordena.php" method="POST">
+		
+			<div class="container">
+				<input type="button" value="Adicionar" name="adicionar" id="adicionar">
+				<input type="button" value="Remover" name="remover" id="remover">
+				<input type="button" value="Limpar" name="limpar" id="limpar">
+				
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				
+				<select  name="selecte" id="selecte">
+					<optgroup label="Título">
+						<option value="Titulo Ascendente">Título Ascendente</option>
+						<option value="Titulo Descendente">Título Descendente</option>
+					</optgroup> 
+					<optgroup label="Autor">
+						<option value="Autor Ascendente">Autor Ascendente</option>
+						<option value="Autor Desendente">Autor Desendente</option>
+					</optgroup> 
+					<optgroup label="Edição">
+						<option value="Edicao Ascendente">Edição Ascendente</option>
+						<option value="Edicao Descendente">Edição Descendente</option>
+					</optgroup> 
+					
+				</select>
+				
+				
+				<input type="submit" value="Ordenar" >
+				
+				<div>
+				<table border="1px">
+				<tr><td>Ordennar Por</td></tr>
+				<?php
+				$array=array("filtro1","filtro2","filtro3");
+				foreach($array as $value){
+					if($_SESSION[$value]!=""){
+					?>
+						<tr>
+							<td>
+							<?php
+								echo $_SESSION[$value];
+							?>
+							</td>
+						</tr>
+					<?php
+					}
+				}
+				?>
+				</table>
+				</div>
+				
+			</div>
+			
 			<table border="1px">
 				<tr>
-					<td>T&iacute;tulo</td>
+					<td>Título</td>
 					<td>Autor</td>
-					<td>Edi&ccedil;&atilde;o</td>
+					<td>Edição</td>
 				</tr>
 				<tr>
 					<td><input type="text" size="50" name="titulo" id="titulo"></td>
@@ -72,11 +162,7 @@ $_SESSION['ano']=array();
 				?>
 			</table>
 			
-				
-			<input type="button" value="Adicionar" name="adicionar" id="adicionar">
-			<input type="button" value="Remover" name="remover" id="remover">
-			<input type="submit" >
-			<input type="reset">
+					
 		</form>
 	</body>
 </html>

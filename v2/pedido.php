@@ -23,4 +23,14 @@ if($_POST["opcao"]=="Remover" and $_SESSION['cont']>0){
 
 	$_SESSION['cont']--;
 }
+if($_POST["opcao"]=="Limpar"){
+	unset($_SESSION["filtro1"]);
+	unset($_SESSION["filtro2"]);
+	unset($_SESSION["filtro3"]);
+	unset($_SESSION["titulo"]);
+	unset($_SESSION["autor"]);
+	unset($_SESSION["ano"]);
+	unset($_SESSION["cont"]);
+	
+}
 ?>
