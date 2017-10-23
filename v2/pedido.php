@@ -5,7 +5,7 @@ if($_SESSION['autor']==array()){
 	$_SESSION['cont']=0;
 }
 
-if($_POST["opcao"]=="Adicionar"){
+if($_POST["opcao"]=="Adicionar" and $_SESSION['cont']<15){
 	$cont=$_SESSION['cont'];
 
 	$_SESSION['autor'][$cont]=$_POST["autor"];

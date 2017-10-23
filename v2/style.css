@@ -1,0 +1,108 @@
+html{
+	background-image:url("imagem2.jpg");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container{
+	position:absolute;
+	left:25%;
+	top:5%;
+}
+.quadros{
+	position:relative;
+	top:-5%;
+	display: inline-block;
+}
+
+.rodape{
+	display: inline-block;	
+	position:relative;
+	left:7%;
+}
+
+.quadro_principal{
+	position:relative;
+	float:left;
+}
+
+.quadro_secundario{
+	position:relative;
+	left:15%;
+	float:right;
+}
+
+.limitador{
+	position:relative;
+}
+.tabela_principal {
+	
+    margin-top: 15px;
+    width: 300px;
+    text-align: center;
+    overflow:hidden;
+    border-collapse:separate;
+    border: solid #ccc 1px;
+    -webkit-border-radius: 25px;
+       -moz-border-radius: 25px;
+            border-radius: 25px;
+	
+}
+.rodape #ordenar{
+	position:relative;
+	float:left;
+	margin-top: 17px;
+	margin-right: 10px;
+}
+.rodape .tabela_secundaria {
+	position:relative;
+	float:right;
+
+
+    margin-top: 15px;
+    width: auto;
+    text-align: center;
+    overflow:hidden;
+    border-collapse:separate;
+    border: solid #ccc 1px;
+    -webkit-border-radius: 25px;
+       -moz-border-radius: 25px;
+            border-radius: 25px;
+}
+
+
+table td {
+    color: gray;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+table .primeira_linha td{
+	color: gray;
+    background-color: #dddddd;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+input{
+	background-color:white;
+	border-radius:5px;
+}
+
+.botao{
+	color: gray;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #dddddd;
+	border-radius:5px;
+	
+}
+
+#selecte{
+	color: gray;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #dddddd;
+	border-radius:5px;
+}
