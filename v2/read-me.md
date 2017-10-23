@@ -4,3 +4,7 @@ disso, basta digitar no navegador "localhost/(a parta onde se encontra)/index.ph
 no caso do wamp é necessario criar uma pastadentro da pasta "www" do wamp supondo que
 o nome da pasta criada seja "projeto" o URL a ser acessado seria "localhost/projeto/index.php"
 a pasta "www" do wampse localiza do diretorio "C:\wamp64\www\"
+
+
+PHP 5.6.25 
+jquery-1.11.3
