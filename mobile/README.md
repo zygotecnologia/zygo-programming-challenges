@@ -1,4 +1,4 @@
-# SumOne Programming Challenge - Mobile Developer
+# Zygo Programming Challenge - Mobile Developer
 
 Seu objetivo nesta challenge é construir um pequeno aplicativo que traga
 informações do Twitter.
@@ -26,7 +26,7 @@ ser uma implementação**
 
 ## Requisitos técnicos
 
-* Você pode desenvolver tanto em Android (Java) quanto iOS (Obj.C/Swift).
+* Você pode desenvolver tanto em Android (Java/Kotlin) quanto iOS (Obj.C/Swift).
 * É permitido o uso de frameworks e bibliotecas externos, desde que dentro de um
   sistema de gerenciamento de pacotes.
 * O código deve ser claro, preferencialmente documentado.
@@ -51,9 +51,9 @@ README caso ele precise de algo especial.
 
 ### Disclaimer
 
-Completar a challenge não implica em nenhum vínculo nem obrigação da SumOne
+Completar a challenge não implica em nenhum vínculo nem obrigação da Zygo
 com você. Todo o código criado será descartado. Este challenge usa elementos
-reais de necessidades da SumOne apenas como uma maneira de avaliarmos sua
+reais de necessidades da Zygo apenas como uma maneira de avaliarmos sua
 aptidão para o cargo.
 
 ### Final notes
