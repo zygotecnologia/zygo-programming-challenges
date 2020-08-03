@@ -3,7 +3,7 @@
 
 ### Introdução
 
-Na SumOne, usamos Ruby e Rails para resolver problemas de forma rápida,
+Na Zygo, usamos Ruby e Rails para resolver problemas de forma rápida,
 com alta capacidade de reagir a mudanças e com deploy simples. Sempre que vamos
 começar a desenvolver um aplicativo que resolva algum problema que ainda não
 temos bem certeza de como devemos abordar, usamos Ruby.
