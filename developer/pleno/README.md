@@ -23,13 +23,13 @@ Contruir um sistema simples de livros, onde usuários comuns podem acessar e bus
 * A página inicial deve ser a listagem dos livros, não precisando de login para ser acessada, permitindo assim o acesso de qualquer usuário;
 * Na página da listagem de livros, deve ser possível realizar a busca por texto, filtrando a lista para exibir livros que possuam o texto digitado no campo de título e/ou no campo de descrição; Também deve ser possvel buscar por autor;
 * Deve ser possível ordenar a lista de livros por título de forma crescente ou decrescente;
-* Tanto o filtro como a ordenação dos livros deve ser feita de forma dinâmica, sem recarregar a página a cada texto digitado ou ordenação alterada;
-* Fique a vontade para utilizar um framework css para montar o layout das páginas (Ex: Bootsrap, Materialize, etc);
+* Tanto o filtro como a ordenação dos livros deve ser feita de forma dinâmica, sem recarregar a página inteira a cada texto digitado ou ordenação alterada;
+* Testes automatizados unitários
 
 **Valem pontos extras:** (não são requisitos)
 
-* Testes em RSpec (unitários e de integração)
-* Uso de algum framework javascript para a página de listagem de livros;
+* Testes automatizados de integração
+* Uso de algum framework css para montar o layout das páginas (Ex: Bootsrap, Materialize, etc);
 * Layout responsivo;
 
 ### Requisitos técnicos
@@ -42,7 +42,7 @@ Contruir um sistema simples de livros, onde usuários comuns podem acessar e bus
 ### O que será avaliado
 
 * Documentação e estrutura do código(Clean code)
-* Estrutura do testes em rspec(caso tenha sido feito)
+* Estrutura do testes(caso tenha sido feito)
 * Organização dos commits;
 * Boa organização e estrutura das views
 
