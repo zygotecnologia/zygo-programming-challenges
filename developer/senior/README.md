@@ -3,7 +3,7 @@
 
 ### Introdução
 
-Na Zygo, utilizamos RubyOnRails na maioria das soluções que desenvolvemos,
+Na Zygo, utilizamos Ruby on Rails na maioria das soluções que desenvolvemos,
 mas estamos atentos também a frameworks javascripts para criar soluções
 com a melhor usabilidade possível para nossos clientes.
 
@@ -18,25 +18,28 @@ Contruir um sistema simples de livros, onde usuários comuns podem acessar e bus
 
 #### Desafio
 
-* O sistema deve possuir um fluxo de cadastro e login, e ter dois perfis de usuários: comum e admin
-* O sistema deve permitir que usuários admins cadastrados criem, editem e removam livros(usuários comuns não podem ter acesso a essas funcionalidades);
-* O sistema deve permitir que qualquer usuário logado(comum e admin) adicionem ou removam livros na sua lista de favoritos;
+* o Sistema deve possuir um fluxo de cadastro e login;
+* Que seja possível cadastrar, editar e remover livros;
+* Deve existir uma forma que seja possível favoritar um livro;
 * Os livros devem possuir um título, uma descrição, uma imagem(pode ser uma url de uma imagem na internet) e o nome do autor;
-* A página inicial deve ser a listagem dos livros, não precisando de login para ser acessada, permitindo assim o acesso de qualquer usuário;
-* Na página da listagem de livros, deve ser possível realizar a busca por texto, filtrando a lista para exibir livros que possuam o texto digitado no campo de título e/ou no campo de descrição; Também deve ser possvel buscar por autor;
+* A página inicial deve ser a listagem dos livros;
+* Na página da listagem de livros, deve ser possível realizar a busca por texto, filtrando a lista para exibir livros que possuam o texto digitado no campo de título e/ou no campo de descrição; Também deve ser possível buscar por autor;
 * Deve ser possível ordenar a lista de livros por título de forma crescente ou decrescente;
 * Tanto o filtro como a ordenação dos livros deve ser feita de forma dinâmica, sem recarregar a página inteira a cada texto digitado ou ordenação alterada;
-* Testes automatizados unitários
+* O sistema deve possuir testes;
 
 **Valem pontos extras:** (não são requisitos)
 
+* Existir dois perfis de usuários: leitor e bibliotecário;
+* O sistema deve permitir que bibliotecários cadastrados criem, editem e removam livros(leitores não podem ter acesso a essas funcionalidades);
+* Que seja possível um usuário incluir e remover livros da lista de favoritos;
 * Testes automatizados de integração
 * Uso de algum framework css para montar o layout das páginas (Ex: Bootsrap, Materialize, etc);
 * Layout responsivo;
 
 ### Requisitos técnicos
 
-* Usar RubyOnRails :)
+* Usar Ruby on Rails :)
 * É permitido o uso de frameworks e _gems_, sem penalização
 * A arquitetura e design do sistema devem ser documentadas em um arquivo README
 * Deve ser usado GIT para versionamento
