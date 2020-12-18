@@ -1,9 +1,9 @@
-# SumOne Programming Challenge
+# Zygo Programming Challenge
 ## Developer Pleno
 
 ### Introdução
 
-Na SumOne, utilizamos RubyOnRails na maioria das soluções que desenvolvemos,
+Na Zygo, utilizamos RubyOnRails na maioria das soluções que desenvolvemos,
 mas estamos atentos também a frameworks javascripts para criar soluções
 com a melhor usabilidade possível para nossos clientes.
 
@@ -53,9 +53,9 @@ do GitHub.
 
 ### Disclaimer
 
-Completar o desafio não implica em nenhum vínculo nem obrigação da SumOne
+Completar o desafio não implica em nenhum vínculo nem obrigação da Zygo
 com você. Todo o código criado será descartado. Este desafio usa elementos
-reais de necessidades da SumOne apenas como uma maneira de avaliarmos sua
+reais de necessidades da Zygo apenas como uma maneira de avaliarmos sua
 aptidão para o cargo.
 
 ### Final notes
