@@ -3,15 +3,15 @@
 ## Front-End Pleno
 👩🏽‍💻🧑🏽‍💻👩‍💻🧑🏻‍💻🧑🏾‍💻👩🏻‍💻
 ### Qual o objetivo deste desafio?
-Queremos conhecer mais da suas habilidades técnicas e como você escreve códigos computacionais. Consideramos bastante a legibilidade do código, limpo e objetivo, além
+Queremos conhecer mais da suas habilidades técnicas e como você escreve códigos computacionais. Consideramos bastante a legibilidade do código, objetivo e limpo, além
 de boas práticas.
 
 Gostaríamos de ressaltar que a proposta deste desafio não representa uma definição sobre você e sua carreira, tendo como principal motivo entender um pouco da sua desenvoltura
-em um cenário próximo ao nosso cotidiano. Com problemas semelhantes, tecnologias e a forma de construir um raciocínio lógico.
+num cenário próximo ao nosso cotidiano,c om problemas semelhantes, tecnologias semelhantes e observaremos a forma de construir um raciocínio lógico.
 
-Abaixo, propomos o desafio de fato e logo após alguns extras, mas somente faça-os extras caso tenha tempo e se sinta motivado.
+Abaixo, propomos o desafio de fato e logo após alguns extras, mas somente os faça extras caso tenha tempo e se sinta motivado.
 
-E por fim, garantimos que seu código será usado somente para este fim. Jamais será utilizado ou propagado onde quer que seja, pela nossa parte.
+E por fim, garantimos que seu código será usado somente para este fim. Jamais será utilizado ou propagado onde quer que seja, por nossa parte.
 
 #### Conhecimentos que serão avaliados
 * HTML 5
@@ -32,40 +32,40 @@ Construir uma aplicação TODO (lista de tarefas a fazer), responsiva que funcio
 #### Tecnologia
 * De preferência VueJS 2, mas possível usar outro framework Js como Angular ou React
 
-#### Requisitos funcionais
+#### Requisitos funcionais e tools
 * CRUD de TODO (tarefas a fazer)
 * Integração com uma API [todobackend](http://todobackend.com), como por exemplo a api de [nodejs com express](http://todo-backend-express.herokuapp.com/)
 * Interface responsiva
 * Persistir os dados localmente
 * Versionamento em GIT
 
-#### O que a aplicação de conter?
-* Uma lista de tarefas NÃO concluídas
-* Uma lista de tarefas concluídas
+#### O que a aplicação deve conter?
+* Uma `lista de tarefas` NÃO concluídas
+* Uma `lista de tarefas` concluídas
 
 #### O que a aplicação deve permitir fazer?
-* Adicionar uma nova tarefa à fazer
-* Editar uma tarefa à fazer
-* Marcar uma tarefa como concluída (Ao marcar como concluída esta tarefa deve ser removida da lista de `à fazer` e adicionada a lista de `concluídas`, automaticamente)
-* Deletar uma tarefa à fazer
-* Deletar todas as tarefas já realizadas (de uma só vez)
+* Adicionar uma nova `tarefa` à fazer
+* Editar uma `tarefa` à fazer
+* Marcar uma `tarefa` como concluída (Ao marcar como concluída esta tarefa deve ser removida da lista de `à fazer` e adicionada a lista de `concluídas`, automaticamente)
+* Deletar uma `tarefa` à fazer
+* Deletar todas as `tarefas` já realizadas (de uma só vez)
 
 #### O que a aplicação NÃO deve permitr fazer?
-* Não deve ser possível editar uma tarefa já concluída
+* Não deve ser possível editar uma `tarefa` já concluída
 
 #### Dica
-Caso ache importante escrever alguma tomada de decisão ou organização no `README.md` seria bastante interessante.
+Caso considere importante registrar alguma tomada de decisão ou organização no `README.md`, seria bastante interessante.
 
 -----------------------------------
 
-Se chegou até aqui já ta ótimo, basta no enviar, mas se quiser ir um pouco além, vai alguns extras.
+Se chegou até aqui já tá ótimo, basta no enviar!!! Mas se quiser ir um pouco além, vai alguns extras.
 
 -----------------------------------
 
 ### Extras
 
 #### PWA 📴
-Transforme a aplicação em um PWA (Progressive web app)
+Transforme a aplicação num PWA (Progressive web app)
 
 * Exiba uma mensagem de instalação após a primeira tarefa ser adicionada
 * Faça funcionar offline com sincronização
@@ -75,7 +75,7 @@ Transforme a aplicação em um PWA (Progressive web app)
 Terminou o desafio e acha que pode dar uma melhorada na usabilidade, vai nessa!!!
 
 * Melhore a navegação se preciso
-* Melhore recursos visuais se preciso, melhorando textos, fontes, adicionando emojis, animações, imagens ou transições
+* Melhore recursos visuais se preciso, ajustando textos, fontes, adicionando emojis, animações, imagens ou transições
 
 #### Data de conclução 🕐
 Permita que o usuário adicione uma data para concluir uma tarefa
@@ -88,9 +88,9 @@ Permita que o usuário adicione uma data para concluir uma tarefa
 
 ### Disclaimer 🚨
 Completar a challenge não implica em nenhum vínculo nem obrigação da Zygo
-com você. Todo o código criado será descartado. Este challenge usa elementos
-reais de necessidades da SumOne apenas como uma maneira de avaliarmos sua
-aptidão para o cargo.
+com você nem sua com a Zygo, ainda estamos nos conhecendo. Todo o código criado que nos for apresentado será usado somente para esta avaliação.
+Este challenge usa elementos reais de necessidades da Zygo apenas como uma maneira de entendermos melhor como você poderia vir a desemepenhar a função
+em aberto.
 
 ### Final notes
 Estamos aqui para te guiar neste processo, qualquer dúvida, estamos a disposição.
