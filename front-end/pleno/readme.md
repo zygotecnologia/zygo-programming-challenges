@@ -32,7 +32,7 @@ Construir uma aplicação TODO (lista de tarefas a fazer), responsiva que funcio
 #### Tecnologia
 * De preferência VueJS 2, mas possível usar outro framework Js como Angular ou React
 
-#### Requisitos funcionais e tools
+#### Requisitos funcionais e ferramentas
 * CRUD de TODO (tarefas a fazer)
 * Integração com uma API [todobackend](http://todobackend.com), como por exemplo a api de [nodejs com express](http://todo-backend-express.herokuapp.com/)
 * Interface responsiva
