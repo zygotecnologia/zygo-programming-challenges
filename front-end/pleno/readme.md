@@ -9,7 +9,7 @@ de boas práticas.
 Gostaríamos de ressaltar que a proposta deste desafio não representa uma definição sobre você e sua carreira, tendo como principal motivo entender um pouco da sua desenvoltura
 num cenário próximo ao nosso cotidiano,c om problemas semelhantes, tecnologias semelhantes e observaremos a forma de construir um raciocínio lógico.
 
-Abaixo, propomos o desafio de fato e logo após alguns extras, mas somente os faça extras caso tenha tempo e se sinta motivado.
+Abaixo, propomos o desafio de fato e logo após alguns extras, mas somente faça os extras caso tenha tempo e se sinta motivado. MAS FIQUE TRANQUILO, CASO NÃO POSSA OU NÃO QUERIA FAZER NÃO IRÁ TE PREJUDICAR EM NADA NESTE PROCESSO.
 
 E por fim, garantimos que seu código será usado somente para este fim. Jamais será utilizado ou propagado onde quer que seja, por nossa parte.
 
