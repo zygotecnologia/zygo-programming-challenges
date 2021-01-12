@@ -40,8 +40,7 @@ Construir uma aplicação TODO (lista de tarefas a fazer), responsiva que funcio
 * Versionamento em GIT
 
 #### O que a aplicação deve conter?
-* Uma `lista de tarefas` NÃO concluídas
-* Uma `lista de tarefas` concluídas
+* Uma `lista de tarefas` (concluídas e NÃO concluídas)
 
 #### O que a aplicação deve permitir fazer?
 * Adicionar uma nova `tarefa` à fazer
@@ -49,6 +48,9 @@ Construir uma aplicação TODO (lista de tarefas a fazer), responsiva que funcio
 * Marcar uma `tarefa` como concluída (Ao marcar como concluída esta tarefa deve ser removida da lista de `à fazer` e adicionada a lista de `concluídas`, automaticamente)
 * Deletar uma `tarefa` à fazer
 * Deletar todas as `tarefas` já realizadas (de uma só vez)
+* Visualizar todas a `tarefas`
+* Visualizar somente `tarefas concluídas`
+* Visualizar somente `tarefas NÃO concluídas`
 
 #### O que a aplicação NÃO deve permitr fazer?
 * Não deve ser possível editar uma `tarefa` já concluída
@@ -85,6 +87,7 @@ Permita que o usuário adicione uma data para concluir uma tarefa
 * Adicione algum recurso visual bacana para as tarefas que estão próximas da data planejada (ex: uma semana, 3 dias ou hoje)
 * Adicione algum recurso visual para as tarefas que passaram da data planejada
 * Permita que o usuário veja a data de quando uma tarefa foi concluída
+* Permita que o usuário possa visualizar somente um determinado período (ex: uma semana, 3 dias ou hoje)
 
 ### Disclaimer 🚨
 Completar a challenge não implica em nenhum vínculo nem obrigação da Zygo
