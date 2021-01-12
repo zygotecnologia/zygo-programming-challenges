@@ -69,25 +69,18 @@ Se chegou até aqui já tá ótimo, basta no enviar!!! Mas se quiser ir um pouco
 #### PWA 📴
 Transforme a aplicação num PWA (Progressive web app)
 
-* Exiba uma mensagem de instalação após a primeira tarefa ser adicionada
-* Faça funcionar offline com sincronização
-* Acione um push notification quando uma tarefa for criada ou deletada
+*  Adicione funcionalidades de PWA, como mensagem de instalação, funcionamento offline, entre outros que achar relevante
 
 #### UI/UX 👁️👁️
 Terminou o desafio e acha que pode dar uma melhorada na usabilidade, vai nessa!!!
 
-* Melhore a navegação se preciso
-* Melhore recursos visuais se preciso, ajustando textos, fontes, adicionando emojis, animações, imagens ou transições
+* Melhore recursos visuais se preciso, seja navegação, ajustando textos, fontes, adicionando emojis, animações, imagens ou transições
 
 #### Data de conclução 🕐
-Permita que o usuário adicione uma data para concluir uma tarefa
+Permita que o usuário adicione uma data para concluir uma tarefa, e/ou veja quando uma tarefa está próxima de passar da data ou mesmo quando já passou da data limite.
 
-* Permita que o usuário possa adicionar uma data para conclusão numa nova tarefa ou editando uma tarefa existente
-* Permita que o usuário veja as tarefas que estão mais próximas das data de vencimento primeiro
-* Adicione algum recurso visual bacana para as tarefas que estão próximas da data planejada (ex: uma semana, 3 dias ou hoje)
-* Adicione algum recurso visual para as tarefas que passaram da data planejada
-* Permita que o usuário veja a data de quando uma tarefa foi concluída
-* Permita que o usuário possa visualizar somente um determinado período (ex: uma semana, 3 dias ou hoje)
+#### E ou Recursos extras
+Adicione algo que você acharia legal ter numa aplicação com essa
 
 ### Disclaimer 🚨
 Completar a challenge não implica em nenhum vínculo nem obrigação da Zygo
