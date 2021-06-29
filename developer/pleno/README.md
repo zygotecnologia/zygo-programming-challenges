@@ -38,6 +38,8 @@ Contruir um sistema simples de livros, onde usuários comuns podem acessar e bus
 * É permitido o uso de frameworks e _gems_, sem penalização
 * A arquitetura e design do sistema devem ser documentadas em um arquivo README
 * Deve ser usado GIT para versionamento
+* ruby 2.4.1
+
 
 ### O que será avaliado
 
